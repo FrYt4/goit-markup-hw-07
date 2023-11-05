@@ -1,1 +1,1 @@
-https://fryt4.github.io/goit-markup-hw-06/
+https://fryt4.github.io/goit-markup-hw-07/
