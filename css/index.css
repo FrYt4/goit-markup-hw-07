@@ -493,10 +493,11 @@
     
     .footer-div{
     display: block;
+    
     }
     
     .footer-first-subcontainer{
-        margin-bottom: 72px;
+    margin-bottom: 72px;
     }
     
     .footer-social-media{
@@ -512,6 +513,7 @@
         color: #ffffff;
         align-items: center;
         display: block;
+        margin-top: 72px;
     
     }
     
