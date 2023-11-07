@@ -33,6 +33,14 @@
    <li><a class="address-item link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
 </address>
+<button class="menu-toggle js-open-menu"
+aria-expanded="false"
+aria-controls="mobile-menu">
+<svg class="icon-hamburger" width="24" height="24">
+    <use href="./images/modal-icon.svg#icon-hamburger"></use>
+</svg>
+</button>
+
     </div>
 </header>
     <main>
@@ -462,6 +470,51 @@
         </form>
         </div>
     </div>
+    <div class="mobile-container js-menu-container" id="mobile-menu" >
+        <button class="menu-toggle js-close-menu">
+            <svg class="modal-icon" width="8" height="8">
+                <use href="./images/modal-icon.svg#icon-cancel"></use>
+            </svg>
+        </button>
+        <ul class="mobile-menu">
+            <li class="nav-li"><a class="menu-link link menu-link-underline" href="./index.html" >Studio</a></li>
+            <li class="nav-li"><a class="menu-link link" href="./portfolio.html" >Portfolio</a></li>
+            <li class="nav-li"><a class="menu-link link" href="" >Contacts</a></li>
+        </ul>
+        <ul class=".mobile-social-list list">
+            <li class="mobile-social-link link">
+                <a class="mobile-social-item" href="">
+                <svg width="24" height="24" class="mobile-social-svg">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+            </a>
+            </li>
+            
+            <li class="mobile-social-link link">
+                <a class="mobile-social-item" href="">
+                    <svg width="24" height="24" class="mobile-social-svg">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="mobile-social-link link">
+                <a class="mobile-social-item" href="">
+                    <svg width="24" height="24" class="mobile-social-svg">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="mobile-social-link link">
+                <a class="mobile-social-item" href="">
+                    <svg width="24" height="24" class="mobile-social-svg">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-modal.js"></script>
 </body>
 

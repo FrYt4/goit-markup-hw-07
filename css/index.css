@@ -25,6 +25,7 @@
     
     .container{
         width: 428px;
+        margin: auto;
     }
     
     .hero{ 
@@ -40,6 +41,10 @@
     
     .link{
     text-decoration: none;
+    }
+
+    .list{
+        list-style: none;
     }
     
     .section-first{
@@ -83,6 +88,8 @@
     img{
         display: block;
     }
+
+  
     
     
                                 /*Header*/
@@ -687,6 +694,7 @@
         font-style: normal;
         align-items: center;
         display: flex;
+        display: none;
     }
     
     .address-item {
@@ -702,6 +710,7 @@
     display: flex;
     gap: 40px;
     margin-right: 332px;
+    display: none;
     }
     
     
@@ -919,7 +928,88 @@
         fill: #f4f4fd;
     }
     
+    /*-----------------------Mobile-menu--------------------------*/
+    .menu-toggle{
+        min-height: 40px;
+        min-width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+        cursor: pointer;
+        border: none;
+        border-radius: 50%;
+        outline: none;
       }
+
+    .icon-hamburger{
+        color: var(--brand-color-navyblue);
+        background-color:var(--brand-color-white);
+        border: 3px solid transparent;
+        line-height: 1.17;
+
+ }
+
+    .mobile-container{
+
+    }
+
+    .js-mobile-container{
+
+    }
+
+    .mobile-menu{
+
+    }
+
+    .mobile-address{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-bottom: 48px;
+        
+    }
+
+    .mobile-address-tel{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.72px;
+        color:#4d5ae5;
+    }
+
+    .mobile-address-mail{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+        color: #434455;
+        font-style: none;
+    }
+
+    .mobile-social-list{
+    display: flex;
+
+    }
+
+    .mobile-social-link{
+        height: 40px;
+        width: 40px;
+    }
+
+    .mobile-social-item{
+
+    }
+
+    .mobile-social-svg{
+        
+    }
+
+}
+      
 
 
 
@@ -934,9 +1024,11 @@
         
     
       }
+
     
     .container{
         width: 768px;
+        margin: auto;
     }
     
     .hero{ 
@@ -948,6 +1040,10 @@
     .section {
         padding-top: 96px;
         padding-bottom: 96px;
+    }
+
+    .list{
+        list-style: none;
     }
     
     .link{
@@ -1619,7 +1715,7 @@
     .nav-ul{
     display: flex;
     gap: 40px;
-    margin-right: 332px;
+    margin-right: 236px;
     }
     
     
