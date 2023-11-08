@@ -954,16 +954,35 @@
  }
 
     .mobile-container{
-
-    }
-
-    .js-mobile-container{
-
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
     }
 
     .mobile-menu{
-
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        margin-bottom: 284px;
     }
+
+    .mobile-menu .link {
+        display: block;
+        padding: 10px;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.1;
+        text-transform: capitalize;
+        color: #2e2f42;
+        text-decoration: none;
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      .mobile-menu .link:hover,
+      .mobile-menu .link:focus {
+        color: #404bbf;
+      }
 
     .mobile-address{
         display: flex;
@@ -1001,11 +1020,15 @@
     }
 
     .mobile-social-item{
+        display: flex;
+        gap: 56px;
+        list-style: none;
 
     }
 
     .mobile-social-svg{
-        
+        width: 24px; 
+        height: 24px;
     }
 
 }
