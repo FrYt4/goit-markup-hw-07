@@ -930,19 +930,9 @@
     
     /*-----------------------Mobile-menu--------------------------*/
     .menu-toggle{
-        min-height: 40px;
-        min-width: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      
-        margin: 0;
-        padding: 0;
-        background-color: transparent;
-        cursor: pointer;
-        border: none;
-        border-radius: 50%;
-        outline: none;
+        position: absolute;
+        top: 24px;
+        right: 24px;
       }
 
     .icon-hamburger{
@@ -998,7 +988,15 @@
         line-height: 1.11;
         letter-spacing: 0.72px;
         color:#4d5ae5;
+
     }
+
+    .mobile-address-tel:hover,
+    .mobile-address-tel:focus {
+      color: #404bbf;
+    }
+
+
 
     .mobile-address-mail{
         font-size: 20px;
@@ -1007,6 +1005,11 @@
         letter-spacing: 0.4px;
         color: #434455;
         font-style: none;
+    }
+
+    .mobile-address-mail:hover,
+    .mobile-address-mail:focus {
+      color: #404bbf;
     }
 
     .mobile-social-list{
