@@ -1033,7 +1033,7 @@
     }
 
     .mobile-social-link{
-        flex-basis: calc(100% - 72px ) / 4;
+        flex-basis: calc(100% - 24px ) / 4;
     }
 
     .mobile-social-item{
