@@ -1009,7 +1009,7 @@
 
     .mobile-address-mail:hover,
     .mobile-address-mail:focus {
-      color: #404bbf;
+      color: #434455;
     }
 
     .mobile-social-list{
@@ -1999,6 +1999,7 @@
         margin: 0;
         list-style: none;
         margin-bottom: 284px;
+        display: none;
     }
 
     .mobile-menu .link {
@@ -3028,6 +3029,7 @@
         margin: 0;
         list-style: none;
         margin-bottom: 284px;
+        display: none;
     }
 
     .mobile-menu .link {
