@@ -1051,6 +1051,13 @@
     
       }
 
+      .menu-toggle{
+        position: absolute;
+        top: 24px;
+        right: 24px;
+        display: none;
+      }
+
     
     .container{
         width: 768px;
@@ -2876,6 +2883,14 @@
         fill: #f4f4fd;
     }
     
+    .menu-toggle{
+        position: absolute;
+        top: 24px;
+        right: 24px;
+        display: none;
+      }
+
+
       }
 
   
