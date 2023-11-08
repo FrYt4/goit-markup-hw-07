@@ -1013,7 +1013,9 @@
     }
 
     .mobile-social-list{
-    display: flex;
+        display: flex;
+        justify-content: center;
+        gap: 56px;
 
     }
 
@@ -1034,6 +1036,12 @@
          cursor: pointer;
          transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     
+    }
+
+    .mobile-social-item:hover,
+    .mobile-social-item:focus,
+    .mobile-social-item:active{
+        background-color: #404BBF;
     }
 
     .mobile-social-svg{
@@ -1058,12 +1066,6 @@
     
       }
 
-      .menu-toggle{
-        position: absolute;
-        top: 24px;
-        right: 24px;
-        display: none;
-      }
 
     
     .container{
