@@ -974,6 +974,11 @@
       .mobile-container .is-open {
         transform: translateX(0);  
     }
+    .mobile-div{
+        display: flex;
+        margin: auto;
+        max-width: 428px;
+    }
 
     .mobile-menu{
         padding: 0;
