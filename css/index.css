@@ -989,6 +989,7 @@
  }
 
     .mobile-container{
+        flex-direction: column;
         overflow-y: auto;
         position: fixed;
         top: 0;
@@ -1077,12 +1078,14 @@ padding-top: 284px;
 
 
     .mobile-address-mail{
+        font-family: Roboto;
         font-size: 20px;
+        font-style: normal;
         font-weight: 500;
-        line-height: 1.2;
+        line-height: 24px;
         letter-spacing: 0.4px;
         color: #434455;
-        font-style: none;
+
     }
 
     .mobile-address-mail:hover,
@@ -1092,13 +1095,15 @@ padding-top: 284px;
 
     .mobile-social-list{
         display: flex;
-        justify-content: center;
         gap: 56px;
-
+        margin-top: 48px;
+        margin-bottom: 40px;
+        margin-left: 40px;
     }
 
     .mobile-social-link{
-        flex-basis: calc(100% - 24px ) / 4;
+        height: 40px;
+        width: 40px;
     }
 
     .mobile-social-item{
@@ -1123,6 +1128,8 @@ padding-top: 284px;
 
     .mobile-social-svg{
         fill: var(--brand-color-CLOUD);
+        width: 16px;
+        height: 16px;
     }
 
 }
