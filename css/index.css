@@ -996,10 +996,11 @@
         width: 100%;
         height: 100%;
         padding: 32px;
-        background-color: var(--background-color);
+        background-color: var(--brand-color-white);
         z-index: 999;
         transform: translateY(100%);
         transition: transform 250ms ease-in-out;
+        flex-direction: column;
       }
 
       .mobile-container.is-open {
@@ -1007,10 +1008,12 @@
     }
 
     .mobile-close-svg{
-width: 8px;
-height: 8px;
-fill: #FFFFFF;
+    width: 8px;
+    height: 8px;
+    fill: #FFFFFF;
     }
+
+
     .mobile-div{
         display: flex;
         margin: auto;
