@@ -954,6 +954,7 @@
       .button-menu{
         border: none;
         stroke: var(--brand-color-navyblue);
+        background-color: #FFFFFF;
       }
 
 .mobile-close-button{
@@ -977,7 +978,8 @@
 
 .mobile-close-button:hover,
 .mobile-close-button:focus{
-    fill:var(--brand-color-white);
+   border: none;
+   background-color: #FFFFFF;
 }
 
     .icon-hamburger{
@@ -1044,8 +1046,8 @@
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
       }
-      .mobile-menu .link:hover,
-      .mobile-menu .link:focus {
+      .mobile-link:hover,
+      .mobile-link:focus {
         color: #404bbf;
       }
 
