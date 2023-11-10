@@ -1024,7 +1024,6 @@ fill: #FFFFFF;
 
     .mobile-menu{
         display: flex;
-        flex-direction: column;
         gap: 40px;
       }
 
