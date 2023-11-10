@@ -989,7 +989,6 @@
  }
 
     .mobile-container{
-        flex-direction: column;
         overflow-y: auto;
         position: fixed;
         top: 0;
@@ -1002,6 +1001,7 @@
         transform: translateY(100%);
         transition: transform 250ms ease-in-out;
       }
+
       .mobile-container.is-open {
         transform: translateY(0);  
     }
@@ -1023,6 +1023,7 @@ fill: #FFFFFF;
     }
 
     .mobile-menu{
+        flex-direction: column;
         display: flex;
         gap: 40px;
       }
