@@ -1018,12 +1018,12 @@ fill: #FFFFFF;
     }
 
     .mobile-navigation{
+        flex-direction: column;
         padding-left: 40px;
         padding-top: 88px;
     }
 
     .mobile-menu{
-        flex-direction: column;
         display: flex;
         gap: 40px;
       }
