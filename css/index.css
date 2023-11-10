@@ -956,6 +956,30 @@
         stroke: var(--brand-color-navyblue);
       }
 
+.mobile-close-button{
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--brand-color-CORNFLOWER);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    cursor: pointer;
+    transition: background-color 250ms var(--transition-variable),
+      border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+
+.mobile-close-button:hover,
+.mobile-close-button:focus{
+    fill:var(--brand-color-white);
+}
+
     .icon-hamburger{
         color: var(--brand-color-navyblue);
         background-color:var(--brand-color-white);
