@@ -33,7 +33,7 @@
    <li><a class="address-item link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
 </address>
-<menu class="menu-hamburger"></menu>
+<menu class="menu-hamburger">
 <button class="menu-toggle js-open-menu button-menu"
 aria-expanded="false"
 aria-controls="mobile-menu">
@@ -41,6 +41,7 @@ aria-controls="mobile-menu">
     <use href="./images/modal-icon.svg#icon-hamburger"></use>
 </svg>
 </button>
+</menu>
     </div>
 </header>
     <main>
@@ -473,20 +474,20 @@ aria-controls="mobile-menu">
     <div class="mobile-container js-menu-container" id="mobile-menu" >
         <div class="mobile-div">
         <button class="mobile-close-button js-close-menu">
-            <svg class="modal-icon" width="8" height="8">
+            <svg class="mobile-close-svg" width="8" height="8">
                 <use href="./images/modal-icon.svg#icon-cancel"></use>
             </svg>
         </button>
     </div>
-    <nav class="mobile navigation">
+    <nav class="mobile-navigation">
         <ul class="mobile-menu">
-            <li class="nav-li"><a class="menu-link link menu-link-underline" href="./index.html" >Studio</a></li>
-            <li class="nav-li"><a class="menu-link link" href="./portfolio.html" >Portfolio</a></li>
-            <li class="nav-li"><a class="menu-link link" href="" >Contacts</a></li>
+            <li><a class="menu-link link menu-link-underline" href="./index.html" >Studio</a></li>
+            <li><a class="menu-link link" href="./portfolio.html" >Portfolio</a></li>
+            <li><a class="menu-link link" href="" >Contacts</a></li>
         </ul>
     </nav>
-        <address>
-            <ul class="mobile-address">
+        <address class="mobile-address">
+            <ul class="mobile-address-list">
 
               <li>
                 <a href="tel:+110001111111" class="link mobile-address-tel"
