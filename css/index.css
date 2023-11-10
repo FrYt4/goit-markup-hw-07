@@ -971,7 +971,7 @@
         transform: translateX(100%);
         transition: transform 250ms ease-in-out;
       }
-      .mobile-container .is-open {
+      .mobile-container.is-open {
         transform: translateX(0);  
     }
     .mobile-div{
