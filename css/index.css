@@ -943,9 +943,17 @@
     }
     
     /*-----------------------Mobile-menu--------------------------*/
-    .menu-toggle{
-        top: 24px;
-        right: 24px;
+    .menu-hamburger{
+        display: flex;
+        margin-top: 24px;
+        margin-right: 16px;
+        margin-bottom: 24px;
+    }
+    
+
+      .button-menu{
+        border: none;
+        stroke: var(--brand-color-navyblue);
       }
 
     .icon-hamburger{
@@ -959,7 +967,6 @@
     .mobile-container{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
         position: fixed;
         top: 0;
         left: 0;
@@ -980,12 +987,17 @@
         max-width: 428px;
     }
 
-    .mobile-menu{
-        padding: 0;
-        margin: 0;
-        list-style: none;
-        margin-bottom: 284px;
+    .mobile-navigation{
+        padding-left: 40px;
+        padding-top: 88px;
     }
+
+    .mobile-menu{
+        display: flex;
+        margin-top: 24px;
+        margin-right: 16px;
+        margin-bottom: 24px;
+      }
 
     .mobile-menu .link {
         display: block;
