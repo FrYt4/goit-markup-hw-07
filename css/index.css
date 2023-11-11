@@ -112,7 +112,7 @@
      
         .menu-link {
         font-size: 16px ;
-        font-weight: 500 ;
+        font-weight: 700 ;
         color: var(--brand-color-navyblue);
         line-height: 1.5 ;
         letter-spacing: 0.02em ;
@@ -1029,6 +1029,7 @@
     }
 
     .mobile-menu{
+        flex-direction: column;
         display: flex;
         gap: 40px;
       }
