@@ -1012,7 +1012,7 @@
     .mobile-close-svg{
     width: 8px;
     height: 8px;
-    fill: #FFFFFF;
+    fill: var(--brand-color-navyblue);
     }
 
 
