@@ -25,6 +25,7 @@
     
     .container{
         width: 428px;
+        max-width: 767px;
         margin: auto;
     }
     
@@ -1140,7 +1141,7 @@ padding-top: 284px;
 
     
     .container{
-        max-width: 768px;
+        max-width: 1157px;
         margin: auto;
     }
     
