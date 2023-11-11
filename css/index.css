@@ -968,7 +968,7 @@
     align-items: center;
     justify-content: center;
     color: var(--brand-color-navyblue);
-    background-color: var(--brand-color-CORNFLOWER);
+    background-color:var(--brand-color-white);
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
     cursor: pointer;
