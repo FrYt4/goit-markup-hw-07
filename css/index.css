@@ -1203,7 +1203,7 @@ padding-top: 284px;
         letter-spacing: 0.03em ;
         text-transform: uppercase;
         color:var(--brand-color-iris);
-        margin-right: 76px;
+        margin-right: 120spx;
      }
     
      .logo-span{
@@ -1251,8 +1251,10 @@ padding-top: 284px;
       }
     
     .header-div{
-      display: flex;
-    align-items: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 72px;
     }
     
       .header{
