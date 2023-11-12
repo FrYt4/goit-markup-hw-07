@@ -1545,7 +1545,7 @@ padding-top: 284px;
     .footer-flex{
         display: flex;
         flex-wrap: wrap;
-        justify-self: center;
+        justify-content: center;
     
     }
     
