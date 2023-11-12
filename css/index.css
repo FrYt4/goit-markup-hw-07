@@ -917,7 +917,8 @@
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-left: 90px;
     }
     
     .modal-check:checked + .modal-three-label span{
@@ -2044,7 +2045,8 @@ padding-top: 284px;
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-left: 90px;
     }
     
     .modal-check:checked + .modal-three-label span{
