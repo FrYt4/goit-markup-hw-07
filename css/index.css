@@ -438,6 +438,7 @@
         flex-wrap: wrap;
         gap: 16px;
         row-gap: 72px;
+        justify-content: center;
     }
     
                                                 /* Footer*/
@@ -518,6 +519,7 @@
      
         display: flex;
         gap: 16px;
+        list-style: none;
     }
     
     .social-media-container{
@@ -552,7 +554,8 @@
         letter-spacing: 0.02em;
         color: #ffffff;
         align-items: center;
-        display: block;
+        display: flex;
+        justify-content: center;
         margin-top: 72px;
     
     }
