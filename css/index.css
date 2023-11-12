@@ -1254,7 +1254,7 @@ padding-top: 284px;
     .header-div{
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         height: 72px;
     }
     
