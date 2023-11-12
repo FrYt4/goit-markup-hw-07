@@ -2611,6 +2611,7 @@ padding-top: 284px;
     .footer-flex{
         display: flex;
         align-items: baseline;
+        justify-content: center;
     
     }
     
