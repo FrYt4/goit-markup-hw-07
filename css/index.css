@@ -1245,6 +1245,7 @@ padding-top: 284px;
       .navigation{
         display: flex;
         align-items: center;
+        margin-left: 16px;
       }
     
     .header-div{
