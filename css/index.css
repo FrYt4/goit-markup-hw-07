@@ -46,7 +46,7 @@
 }
 
 /* ================================================= MOBILE 👇 ========================================= */
-@media screen and (min-width: 428px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     *{
 
         box-sizing: border-box;
