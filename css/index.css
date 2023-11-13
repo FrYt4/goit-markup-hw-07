@@ -12,10 +12,10 @@
 --gap: 10px
 }
 
-@media screen and (max-width: 428px){
+@media screen and (min-width: 428px){
 
     .container{
-        width: 320px;
+        width: 428px;
 
     }
 
