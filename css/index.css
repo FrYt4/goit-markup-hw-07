@@ -19,19 +19,8 @@
 
     }
 
-    .list{
-        list-style: none;
-    }
-
-    .img{
-        width: 100%;
-    }
-
-    .section-second{
-        display: none;
-    }
     .footer-input {
-        width: 100%;
+        width: 396px;
         height: 40px;
         border: 1px solid #FFFFFF;
         background-color: transparent;
@@ -577,7 +566,7 @@
     }
     
     .footer-input{
-    width: 396px;
+    width: 100%;
     height: 40px;
     border: 1px solid #FFFFFF;
     background-color: transparent;
