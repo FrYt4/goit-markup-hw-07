@@ -31,13 +31,6 @@
     }
   }
   
- .modal-backdrop{
-
-  }
-
-  .is-hidden{
-    
-  }
 
   .subscribe-content {
     display: flex;
@@ -496,9 +489,7 @@ text-decoration: none;
         fill: transparent;
     }
     
-    .footer-second-container{
 
-    }
 
     .footer-nav{
 list-style: none;
