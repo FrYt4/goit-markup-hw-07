@@ -690,6 +690,7 @@ list-style: none;
     right: 14px;
     stroke: black;
     background-color: transparent;
+    border: none;
 
 }
 .modal-buy-now-close:hover{
