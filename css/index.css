@@ -704,12 +704,13 @@ text-decoration: none;
     stroke:#fd9222 ;
 }
 
-.modal-buy-now-title span {
-    color: #fd9222;
+.modal-buy-now-title-span {
+    color: #FFFFFF;
   }
 
 .modal-buy-now-title {
 margin-bottom: 32px;
+color: #FD9222;
 }
 
 .modal-buy-now-list {
