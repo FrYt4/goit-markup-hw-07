@@ -31,7 +31,14 @@
     }
   }
   
-  
+ .modal-backdrop{
+
+  }
+
+  .is-hidden{
+    
+  }
+
   .subscribe-content {
     display: flex;
     flex-direction: column;
